@@ -36,6 +36,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
   2. Tips:
       1. Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same function!).
       2. It may be helpful to check out the background videos again if you don't quite understand what should be going on.
+      3. Consider starting by implementing a simple `merge` function that merges two arrays before completing the full `mergeSort` task.
 </div>
 
 ### Additional resources

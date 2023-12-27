@@ -16,8 +16,8 @@ In order to run these functions you'll need to run it from somewhere. You can ru
 Did you figure it out? Congratulations! But do you really understand what is taking place? If you need some help understanding what's going on with this function, give [Khan Academy's Stepping Through Recursive Fibonacci Function video](https://www.youtube.com/watch?v=zg-ddPbzcKM) a watch. If you prefer to read, [Recursive Fibonacci Explained](https://www.scaler.com/topics/fibonacci-series-in-javascript/) is also very helpful!
 
 ### Project: merge sort
-  
-Sorting algorithms are a great way to get to grips with recursion.  One such algorithm is [Merge Sort](http://en.wikipedia.org/wiki/Merge_sort), a type of sort that lends itself well to recursion and can be much faster than other algorithms such as bubble sort on the right data sets.  You'll build a function which sorts a given array but uses a "merge sort" function for doing so.
+
+Sorting algorithms are a great way to get to grips with recursion. One such algorithm is [Merge Sort](http://en.wikipedia.org/wiki/Merge_sort), a type of sort that lends itself well to recursion and can be much faster than other algorithms such as bubble sort on the right data sets. You'll build a function which sorts a given array but uses a "merge sort" function for doing so.
 
 It can be a bit strange to wrap your head around, but just remember you're "dividing and conquering" the problem.
 
@@ -31,16 +31,19 @@ The first step is to actually understand what the merge sort algorithm is doing:
 4. (Optional) Play with this [Merge Sort Visualizer](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/) to get a better feel for exactly what is happening during a Merge Sort.
 
 ### Assignment 2
+
 <div class="lesson-content__panel" markdown="1">
   1. Build a function `mergeSort` that takes in an array and returns a sorted array, using a recursive merge sort methodology.
   2. Tips:
       1. Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same function!).
       2. It may be helpful to check out the background videos again if you don't quite understand what should be going on.
+      3. Some change for git in real world exercises.
 </div>
 
 ### Additional resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
-* Visualize and [understand](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK) the memory allocation for recursive functions
-* For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)
+- Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
+- Visualize and [understand](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK) the memory allocation for recursive functions
+- For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)
